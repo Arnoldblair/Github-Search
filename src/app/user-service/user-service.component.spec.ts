@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DisplayProfileComponent } from './display-profile.component';
+import { UserServiceComponent } from './user-service.component';
 
-describe('DisplayProfileComponent', () => {
-  let component: DisplayProfileComponent;
-  let fixture: ComponentFixture<DisplayProfileComponent>;
+describe('UserServiceComponent', () => {
+  let component: UserServiceComponent;
+  let fixture: ComponentFixture<UserServiceComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DisplayProfileComponent ]
+      declarations: [ UserServiceComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DisplayProfileComponent);
+    fixture = TestBed.createComponent(UserServiceComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
