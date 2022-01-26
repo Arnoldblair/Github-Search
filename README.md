@@ -18,6 +18,9 @@ A website where users may enter a GitHub username into a form, submit it, and se
 
 ## Live Application
 
+https://arnoldblair.github.io/Github-Search/
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -38,3 +41,6 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+## Contacts
+
+arnoldblair15@gmail.com
