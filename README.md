@@ -1,7 +1,5 @@
 # GitSearch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
-
 ## Description
 
 A website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories
@@ -13,16 +11,10 @@ A website where users may enter a GitHub username into a form, submit it, and se
 3. Show Repo names and Description of that particular repo.
 4. Switch through the routes.
 
-## Figma design
-
- Check through my figma design [here](https://www.figma.com/file/y50uLOmcPhnQA1Cw33diOX/GithubSearch?node-id=0%3A1). It contains two pages.
- 1. Profile page.
- 2. About page.
 
 ## Languages
 
 1. Typescript
-2. GITHUB API
 
 ## Live Application
 
