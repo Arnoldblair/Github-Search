@@ -1,36 +1,30 @@
-# Github Finder
+# GitSearch
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
 
 ## Description
 
-
-This is an application where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories.The project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
-
+A website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories
 
 ## Features
 
-1. Uses the Github API to perform searches on Github, and display the results to the users.
-2. Users page searches for user profile strictly using the user name.
-3. Repositories page searches for repositories strictly using the repository name.
-4. Repository page loads 10  searches and one can click `load more` to view more pages.
+1. Search github username.
+2. Show Profile.
+3. Show Repo names and Description of that particular repo.
+4. Switch through the routes.
 
+## Figma design
 
+ Check through my figma design [here](https://www.figma.com/file/y50uLOmcPhnQA1Cw33diOX/GithubSearch?node-id=0%3A1). It contains two pages.
+ 1. Profile page.
+ 2. About page.
 
+## Languages
 
+1. Typescript
+2. GITHUB API
 
-## Known Bugs
-There are no known bugs. Contact me if you find.
-
-
-## Live Website
-View the complete site [here](https://SophiaNM.github.io/GithubFinder/Github/)
-
-## Technologies Used
-It is built using Angular JS, HTML, Bootstrap.
-The website uses components, custom directives, custom pipes, routing modules.
-The components in the application are:
-
-## Contributors
- - Arnoldblair Munene
+## Live Application
 
 ## Development server
 
@@ -52,16 +46,3 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## License
----------
-### MIT License
-
-Copyright (c) [2022] [Arnoldblair Munene]
-
-
-### Contact Information
-arnoldblair15@gmail.com
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

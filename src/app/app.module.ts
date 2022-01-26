@@ -1,41 +1,39 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { RoutingModule } from './routing/routing.module'
-import { FormsModule } from '@angular/forms'
-// Defining routes
-// const routes:Routes=[
-//   {path:"users",component:UsersComponent},
-//   {path:"repos",component:ReposComponent},
-//   {path:"",redirectTo:"/users",pathMatch:"full"},
-//   {path:'**',component:NotFoundComponent}
-// ]
+
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UsersComponent } from './users/users.component';
-import { ReposComponent } from './repos/repos.component';
+import { ProfileComponent } from './profile/profile.component';
+
+import { HttpClientModule } from '@angular/common/http';
+import { FormComponent } from './form/form.component';
+
+import { FormsModule } from '@angular/forms';
+import { AboutComponent } from './about/about.component';
+import { NavComponent } from './nav/nav.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import { DataService } from './services/data.service';
-import { HttpModule } from '@angular/http';
-import { FontDirective } from './font-directive/font.directive';
-import { LastPipe } from './pipe/last.pipe';
+import { OnHoverDirective } from './on-hover.directive';
+import { DateDirective } from './date.directive';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    UsersComponent,
-    ReposComponent,
+    ProfileComponent,
+    FormComponent,
+    AboutComponent,
+    NavComponent,
     NotFoundComponent,
-    FontDirective,
-    LastPipe
+    OnHoverDirective,
+    DateDirective
   ],
   imports: [
     BrowserModule,
-    RoutingModule,
-    HttpModule,
+    AppRoutingModule,
+    HttpClientModule,
     FormsModule
-
   ],
-  providers: [DataService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
