@@ -1,7 +1,6 @@
 # Github Finder
 
-This is the second Independent project for Moringa Core, June 1st, 2018.
-The project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
+This is an application where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories.The project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
 
 ## Description
 Github Finder is a web application that uses the GitHub API to perform searches on GitHub and display the results to the user.
@@ -14,15 +13,7 @@ Github Finder is a web application that uses the GitHub API to perform searches 
 4. Repository page loads 10  searches and one can click `load more` to view more pages.
 
 
-## Behaviour Driven Development
 
-| Behaviour | Input | Output |
-| --------- | ------| ------ |
-|Show github profile|Enter the Username in the search box and cick `search`|Displays name, username, bio, number of repositories, Hireable, date of creating the repo, followers, following and public gists|
-|Search gitub repositories | Navigate to Repos page click on `Repositories` and type the name of repository.|Displays a list of 10 repositories based on the query|
-|Load more search Results	|Click `Load More` button on the Find Repos page |Adds 10 more results in the search results|
-|Redirect to github profile on Github website | Click the `view on github` button of a Github user | Opens the profile on the Github website|
-|Redirect to a specific Github Repository | Click the `view on github` button of a repository on repositories page | Opens the Repository on Github website |
 
 
 ## Known Bugs
@@ -38,7 +29,7 @@ The website uses components, custom directives, custom pipes, routing modules.
 The components in the application are:
 
 ## Contributors
- - Sophia Murage
+ - Arnoldblair Munene
 
 ## Development server
 
@@ -64,7 +55,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ---------
 ### MIT License
 
-Copyright (c) [2018] [Sophia Njeri Murage]
+Copyright (c) [2022] [Arnoldblair Munene]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -86,7 +77,7 @@ SOFTWARE.
 
 
 ### Contact Information
-njerimurage92@gmail.com | snmurage1@gmail.com
+arnoldblair15@gmail.com
 
 ## Further help
 
